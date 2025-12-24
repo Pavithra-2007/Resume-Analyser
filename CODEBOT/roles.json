@@ -1,0 +1,60 @@
+[
+  { "role": "Web Developer", "skills": ["html", "css", "javascript", "react", "bootstrap", "git"] },
+  { "role": "Frontend Developer", "skills": ["html", "css", "javascript", "react", "responsive", "ui"] },
+  { "role": "Backend Developer", "skills": ["node", "express", "mongodb", "sql", "api", "authentication"] },
+  { "role": "Full Stack Developer", "skills": ["html", "css", "javascript", "react", "node", "mongodb", "git"] },
+
+  { "role": "Java Developer", "skills": ["java", "spring", "spring boot", "hibernate", "sql"] },
+  { "role": "Python Developer", "skills": ["python", "django", "flask", "api", "sql"] },
+  { "role": "Dot Net Developer", "skills": ["c#", ".net", "asp.net", "sql", "mvc"] },
+
+  { "role": "Data Analyst", "skills": ["python", "sql", "excel", "powerbi", "statistics"] },
+  { "role": "Data Scientist", "skills": ["python", "machine learning", "pandas", "numpy", "sql"] },
+  { "role": "Machine Learning Engineer", "skills": ["python", "machine learning", "deep learning", "tensorflow"] },
+  { "role": "AI Engineer", "skills": ["python", "nlp", "deep learning", "machine learning"] },
+  { "role": "Big Data Engineer", "skills": ["hadoop", "spark", "python", "scala", "sql"] },
+
+  { "role": "UI/UX Designer", "skills": ["figma", "wireframe", "prototype", "ui", "ux"] },
+  { "role": "Graphic Designer", "skills": ["photoshop", "illustrator", "creativity", "ui"] },
+  { "role": "Product Designer", "skills": ["design thinking", "figma", "ux research", "prototype"] },
+
+  { "role": "Mobile App Developer", "skills": ["android", "kotlin", "java", "firebase"] },
+  { "role": "Flutter Developer", "skills": ["flutter", "dart", "firebase", "api"] },
+  { "role": "React Native Developer", "skills": ["react native", "javascript", "mobile ui"] },
+  { "role": "iOS Developer", "skills": ["swift", "ios", "xcode", "ui"] },
+
+  { "role": "Software Tester", "skills": ["manual testing", "automation", "selenium", "test cases"] },
+  { "role": "QA Engineer", "skills": ["testing", "jira", "automation", "bug tracking"] },
+  { "role": "Automation Tester", "skills": ["selenium", "java", "testng", "automation"] },
+
+  { "role": "DevOps Engineer", "skills": ["aws", "docker", "ci/cd", "linux", "git"] },
+  { "role": "Cloud Engineer", "skills": ["aws", "azure", "cloud computing", "linux"] },
+  { "role": "Site Reliability Engineer", "skills": ["linux", "monitoring", "automation", "cloud"] },
+
+  { "role": "Cyber Security Analyst", "skills": ["network security", "ethical hacking", "linux", "firewalls"] },
+  { "role": "Penetration Tester", "skills": ["ethical hacking", "penetration testing", "kali linux"] },
+
+  { "role": "Blockchain Developer", "skills": ["blockchain", "solidity", "smart contracts", "ethereum"] },
+  { "role": "Web3 Developer", "skills": ["blockchain", "web3", "solidity", "javascript"] },
+
+  { "role": "Game Developer", "skills": ["unity", "c#", "game design", "graphics"] },
+  { "role": "AR/VR Developer", "skills": ["unity", "c#", "vr", "ar"] },
+
+  { "role": "Business Analyst", "skills": ["business analysis", "excel", "sql", "documentation"] },
+  { "role": "System Analyst", "skills": ["requirements", "uml", "documentation", "analysis"] },
+
+  { "role": "System Administrator", "skills": ["linux", "windows server", "networking", "troubleshooting"] },
+  { "role": "Database Administrator", "skills": ["sql", "database tuning", "backup", "performance"] },
+
+  { "role": "IT Support Engineer", "skills": ["hardware", "software", "troubleshooting", "networking"] },
+  { "role": "Technical Support Engineer", "skills": ["customer support", "linux", "networking"] },
+
+  { "role": "Digital Marketing Executive", "skills": ["seo", "sem", "social media", "analytics"] },
+  { "role": "SEO Specialist", "skills": ["seo", "keyword research", "analytics", "content"] },
+
+  { "role": "Content Writer", "skills": ["content writing", "blogging", "seo", "research"] },
+  { "role": "Technical Writer", "skills": ["documentation", "api docs", "technical writing"] },
+
+  { "role": "Project Manager", "skills": ["project management", "agile", "scrum", "planning"] },
+  { "role": "Scrum Master", "skills": ["scrum", "agile", "jira", "facilitation"] }
+]
