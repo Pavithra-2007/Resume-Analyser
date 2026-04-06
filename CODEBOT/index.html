@@ -2,8 +2,8 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CODEBOT – AI Resume Matcher</title>
-
     <link rel="stylesheet" href="style.css">
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.16.105/pdf.min.js"></script>
@@ -11,34 +11,32 @@
 </head>
 <body>
 
-<h1>🤖 CODEBOT – AI Resume Matcher</h1>
+    <h1>🤖 CODEBOT – AI Resume Matcher</h1>
 
-<div class="container">
+    <div class="container">
+        <label for="resumeFile">📄 Upload Resume</label><br>
+        <input type="file" id="resumeFile" accept=".txt,.pdf,.docx"><br><br>
 
-    <label>📄 Upload Resume</label><br>
-    <input type="file" id="resumeFile" accept=".txt,.pdf,.docx"><br><br>
+        <button type="button" onclick="analyzeResume()">Analyze Resume</button>
 
-    <button onclick="analyzeResume()">Analyze Resume</button>
+        <h3>👤 Personal Details</h3>
+        <div id="personal" class="box"></div>
 
-    <h3>👤 Personal Details</h3>
-    <div id="personal" class="box"></div>
+        <h3>✅ Extracted Skills</h3>
+        <div id="skills" class="box"></div>
 
-    <h3>✅ Extracted Skills</h3>
-    <div id="skills" class="box"></div>
+        <h3>🎯 Matched Role</h3>
+        <div id="role" class="box"></div>
 
-    <h3>🎯 Matched Role</h3>
-    <div id="role" class="box"></div>
+        <h3>📊 Match Percentage</h3>
+        <div id="match" class="box"></div>
 
-    <h3>📊 Match Percentage</h3>
-    <div id="match" class="box"></div>
+        <h3>⭐ Resume Score</h3>
+        <div id="score" class="box"></div>
 
-    <h3>⭐ Resume Score</h3>
-    <div id="score" class="box"></div>
+        <a href="dashboard.html" target="_blank">📊 View Dashboard</a>
+    </div>
 
-    <a href="dashboard.html" target="_blank">📊 View Dashboard</a>
-
-</div>
-
-<script src="script.js"></script>
+    <script src="script.js"></script>
 </body>
 </html>
