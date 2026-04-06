@@ -1,69 +1,194 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body {
     font-family: Arial, sans-serif;
-    background: linear-gradient(to right, #1e3c72, #2a5298);
+    background: linear-gradient(135deg, #1e3c72, #2a5298, #4facfe);
+    min-height: 100vh;
     color: white;
     text-align: center;
+    padding: 30px 15px;
+}
+
+h1 {
+    margin-bottom: 25px;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+h3 {
+    margin: 18px 0 10px;
+    color: #1f3c88;
+    text-align: left;
 }
 
 .container {
-    background: white;
+    background: rgba(255, 255, 255, 0.96);
     color: black;
-    width: 55%;
-    margin: 30px auto;
-    padding: 20px;
+    width: 90%;
+    max-width: 850px;
+    margin: 0 auto;
+    padding: 30px;
+    border-radius: 18px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+    text-align: left;
+}
+
+label {
+    font-weight: bold;
+    color: #1f3c88;
+    display: inline-block;
+    margin-bottom: 10px;
+}
+
+input[type="file"] {
+    width: 100%;
+    padding: 12px;
+    border: 2px dashed #b8c7e0;
     border-radius: 10px;
+    background: #f8fbff;
+    cursor: pointer;
+    margin-bottom: 18px;
 }
 
 button {
-    padding: 10px 25px;
-    background: #1e3c72;
+    padding: 12px 24px;
+    background: linear-gradient(to right, #1e3c72, #2a5298);
     color: white;
     border: none;
-    border-radius: 5px;
+    border-radius: 10px;
     cursor: pointer;
+    font-size: 15px;
+    font-weight: bold;
+    transition: all 0.3s ease;
+    margin-bottom: 22px;
+}
+
+button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 16px rgba(30, 60, 114, 0.35);
 }
 
 .box {
-    background: #f2f2f2;
-    padding: 10px;
-    border-radius: 5px;
-    margin-bottom: 10px;
+    background: #f4f7fb;
+    padding: 14px;
+    border-radius: 10px;
+    margin-bottom: 12px;
+    border: 1px solid #dce6f5;
+    min-height: 50px;
+    color: #333;
+    line-height: 1.5;
 }
+
 .profile-card {
     background: #ffffff;
-    padding: 20px;
-    border-radius: 12px;
-    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
-    margin-bottom: 20px;
+    padding: 22px;
+    border-radius: 14px;
+    box-shadow: 0 4px 14px rgba(0, 0, 0, 0.08);
+    margin-bottom: 18px;
     text-align: center;
+    border: 1px solid #e8eef7;
 }
 
 .profile-card h2 {
     margin: 0;
     color: #1f3c88;
+    font-size: 1.5rem;
 }
 
 .subtitle {
-    color: #555;
+    color: #666;
     font-size: 14px;
-    margin-bottom: 15px;
+    margin: 10px 0 16px;
 }
 
 .info-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-    gap: 10px;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 12px;
     font-size: 14px;
+    text-align: left;
 }
 
 .info-grid span {
     background: #f4f6fb;
-    padding: 8px;
+    padding: 10px 12px;
     border-radius: 8px;
+    border: 1px solid #e0e7f2;
+    word-break: break-word;
 }
 
 .info-grid a {
     text-decoration: none;
     color: #1f3c88;
     font-weight: bold;
+}
+
+.info-grid a:hover {
+    text-decoration: underline;
+}
+
+a[href="dashboard.html"] {
+    display: inline-block;
+    margin-top: 15px;
+    text-decoration: none;
+    background: linear-gradient(to right, #11998e, #38ef7d);
+    color: white;
+    padding: 12px 20px;
+    border-radius: 10px;
+    font-weight: bold;
+    transition: all 0.3s ease;
+}
+
+a[href="dashboard.html"]:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 16px rgba(17, 153, 142, 0.3);
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background: white;
+    color: black;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+th, td {
+    padding: 12px;
+    border: 1px solid #d9e2f0;
+    text-align: center;
+}
+
+th {
+    background: #1f3c88;
+    color: white;
+}
+
+tr:nth-child(even) {
+    background: #f7faff;
+}
+
+@media (max-width: 768px) {
+    h1 {
+        font-size: 1.6rem;
+    }
+
+    .container {
+        width: 95%;
+        padding: 20px;
+    }
+
+    .info-grid {
+        grid-template-columns: 1fr;
+    }
+
+    button,
+    a[href="dashboard.html"] {
+        width: 100%;
+        text-align: center;
+    }
 }
